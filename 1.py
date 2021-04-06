@@ -14,7 +14,7 @@ class Work:
         f = open('text.txt', 'w')
         f.close()
     def wrt(self):
-        with open('text.txt', 'w+') as f:
+        with open('text.txt', 'w') as f:
             f.write(input("Запишіть в файл щось: "))
     def rd(self):
         with open('text.txt', 'r') as f:
